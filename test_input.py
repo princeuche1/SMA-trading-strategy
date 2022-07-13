@@ -9,7 +9,7 @@ data = pd.read_csv('HINDALCO.csv', index_col=False, delimiter = ',')
 
 def test_string():
     """
-    The function tests the validity of 
+    This function tests that the data type of instrument is string
     
     """
     for i in data['instrument']:
@@ -17,7 +17,7 @@ def test_string():
 
 def test_volume_int():
     """
-    The function tests the validity of
+    This function tests that the data type of volume is integer
     
     """
     for i in data['volume']:
@@ -25,7 +25,7 @@ def test_volume_int():
 
 def test_close_decimal():
     """
-    The function tests the validity of
+    This function tests that the data type of close is decimal
     
     """
     for i in data['close']:
@@ -34,7 +34,7 @@ def test_close_decimal():
 
 def test_open_decimal():
     """
-    The function tests the validity of
+    This function tests that the data type of open is decimal
     
     """
     for i in data['open']:
@@ -42,7 +42,7 @@ def test_open_decimal():
 
 def test_high_decimal():
     """
-    The function tests the validity of
+    This function tests that the data type of high is decimal
     
     """
     for i in data['high']:
@@ -50,7 +50,7 @@ def test_high_decimal():
 
 def test_low_decimal():
     """
-    The function tests the validity of
+    This function tests that the data type of low is decimal
     
     """
     for i in data['low']:
@@ -58,7 +58,7 @@ def test_low_decimal():
 
 def test_datetime():
     """
-    The function tests the validity of
+    This function tests that the data type of datetime is datetime
     
     """
     for i in data['datetime']:
