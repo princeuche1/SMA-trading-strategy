@@ -1,7 +1,5 @@
 import datetime
 from decimal import Decimal
-from unicodedata import decimal
-from numpy import datetime64, float64
 import pytest
 import pandas as pd
 data = pd.read_csv('HINDALCO.csv', index_col=False, delimiter = ',')
